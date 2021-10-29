@@ -20,7 +20,7 @@ In your [.stylelintrc.js], import _config-stylelint_ and spread it into the expo
 const fundamend = require('@fundamend/config-stylelint');
 
 module.exports = {
-	...fundamend,
+	...fundamend
 };
 ```
 
@@ -32,8 +32,8 @@ const fundamend = require('@fundamend/config-stylelint');
 module.exports = {
 	...fundamend,
 	rules: {
-		'color-hex-case': 'upper',
-	},
+		'color-hex-case': 'upper'
+	}
 };
 ```
 
